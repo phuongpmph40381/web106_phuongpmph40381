@@ -1,0 +1,109 @@
+.bao{
+    display: grid;
+  }
+  .container{
+     
+  }
+  header{
+      border: 1px solid black;
+      height: 130px;
+      display: grid;
+      align-items: center;
+      gap: 20px;
+  }
+  
+  .logo img{
+      width: 30%;
+      height: 50%;
+      grid-column: 1/2;
+      margin-left:30px ;
+    }
+  .search{
+      grid-column: 2/4;
+     
+  }
+  
+  .nguoiuse{
+      grid-column: 4/5;
+     font-size: 90%;
+  }
+  .nguoiuse img{
+      border-radius: 100%;
+      height: 40px;
+  }
+  .noiDung{
+      border: 1px solid black;
+      min-height: 300px;
+      display: grid;
+  }
+  .tintuctrai{
+      text-align: center;
+      grid-column: 1/3;
+      border: 1px solid black;
+  }
+  .tintucphai{
+      grid-column: 3/5;
+      display: grid;
+      grid-template-columns: auto auto auto;   
+      gap: 10px;
+      padding: 10px;
+  }
+  .video{
+      width: 90%;
+    min-height: 140px;
+        border: 1px solid black;
+  }
+  .item{
+       text-align: left;
+       gap: 20px;
+       padding: 10px;
+     
+     
+  }
+  
+  
+  @media screen and (max-width: 900px) {
+      .search input{
+     width: 80%;
+  }
+  .tintucphai{
+      grid-column: 3/5;
+      display: grid;
+      grid-template-columns: auto auto;   
+      gap: 10px;
+      padding: 10px;
+  }
+  .logo img{
+      width: 30%;
+      height: 50%;
+    
+  }
+
+  .video{
+    min-height: 150px;
+        border: 1px solid black;
+  }
+  }
+   
+  @media screen and (max-width: 500px) {
+    .search input{
+   width: 70%;
+}
+.tintucphai{
+    grid-column: 3/5;
+    display: grid;
+    grid-template-columns: auto auto;   
+    gap: 10px;
+    padding: 10px;
+}
+.logo img{
+    width: 70%;
+    height: 50%;
+  
+}
+
+.video{
+    min-height: 90px;
+      border: 1px solid black;
+}
+}
